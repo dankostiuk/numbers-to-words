@@ -1,0 +1,17 @@
+{
+  "name": "sonatype-assignment",
+  "version": "1.0.0",
+  "description": "Convert numbers into their English word equivalents.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "mocha",
+    "coverage": "nyc npm test"
+  },
+  "author": "dankostiuk",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1"
+  }
+}
